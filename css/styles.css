@@ -39,7 +39,7 @@ main {
   max-width: 327px;
 }
 .img-container {
-  background: linear-gradient(var(--Cyan) 0 0) var(--p, 0%) no-repeat;
+  background-color: var(--Cyan);
   max-height: 279px;
   border-radius: 0.8rem;
   overflow: hidden;
