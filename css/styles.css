@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* ********************* */
+/* VARIABLES */
+/* ********************* */
+
+:root {
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/* ********************* */
+/* STYLES */
+/* ********************* */
+
+body {
+  background-color: var(--mainBG);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--Softblue);
+  font-family: "Outfit", sans-serif;
+}
+main {
+  background-color: var(--cardBG);
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  font-weight: 300;
+  max-width: 327px;
+}
+.img-container {
+  background: linear-gradient(var(--Cyan) 0 0) var(--p, 0%) no-repeat;
+  max-height: 279px;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.img-container:hover {
+  --p: 100%;
+}
+.equilibriam-img {
+}
+.equilibriam-img:hover {
+  opacity: 40%;
+}
+
+h1 {
+  margin: 1.2rem 0;
+  color: var(--White);
+  font-size: 1.2rem;
+}
+h1:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
+.description {
+  color: var(--Softblue);
+}
+.price-time {
+  margin: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-time > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-time > span > img {
+  margin-right: 0.4rem;
+}
+
+#price {
+  color: var(--Cyan);
+  font-weight: 600;
+}
+hr {
+  border-color: var(--line);
+  background-color: var(--line);
+  margin-bottom: 1rem;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+}
+.artist-avatar {
+  height: 35px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+#artist-name {
+  color: var(--White);
+  margin-left: 4px;
+}
+#artist-name:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
