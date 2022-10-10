@@ -32,6 +32,7 @@ body {
 }
 main {
   background-color: var(--cardBG);
+
   margin: 1.5rem;
   padding: 1.5rem;
   border-radius: 0.8rem;
@@ -40,6 +41,9 @@ main {
 }
 .img-container {
   background-color: var(--Cyan);
+  background-image: url("../images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   max-height: 279px;
   border-radius: 0.8rem;
   overflow: hidden;
@@ -51,7 +55,7 @@ main {
 .equilibriam-img {
 }
 .equilibriam-img:hover {
-  opacity: 40%;
+  opacity: 30%;
 }
 
 h1 {
